@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Pages Portfolio</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            padding-top: 56px; /* Space for fixed navbar */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+            font-weight: 500;
+        }
+        .nav-link:hover {
+            color: #0d6efd !important; /* Bootstrap primary blue hover */
+        }
+        .hero-section {
+            background-color: #e9ecef;
+            padding: 80px 0;
+            margin-bottom: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .file-section {
+            padding: 40px 0;
+            border-bottom: 1px solid #dee2e6;
+            margin-bottom: 30px;
+        }
+        .file-section:last-of-type {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        h2 {
+            color: #007bff;
+            margin-bottom: 25px;
+            font-weight: 600;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        pre {
+            background-color: #f1f3f5;
+            border: 1px solid #ced4da;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            white-space: pre-wrap; /* Ensure text wraps */
+            word-wrap: break-word; /* Break long words */
+            font-family: 'Roboto Mono', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+            color: #212529;
+        }
+        code {
+            color: #c80050; /* A contrasting color for inline code */
+            background-color: #e9ecef;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        .svg-container {
+            background-color: #ffffff;
+            border: 1px solid #ced4da;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+            margin-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#top">My GitHub Pages</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ashravan-txt">Ashravan Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dilemma-json">Dilemma</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-md">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pelican-svg">Pelican SVG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#restaurant-json">Restaurant</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prediction-json">Fed Rate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#license-file">License</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#uid-txt">UID</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4" id="top">
+        <header class="text-center hero-section">
+            <h1 class="display-4 fw-bold mb-3">Welcome to My GitHub Pages Portfolio</h1>
+            <p class="lead text-muted">A single-page application demonstrating various content types as required by the brief.</p>
+            <p class="text-muted small">All content for the specified files is embedded directly within this HTML page for easy viewing.</p>
+        </header>
+
+        <!-- Ashravan Story Section -->
+        <section id="ashravan-txt" class="file-section">
+            <h2 class="mb-3"><code>ashravan.txt</code> - Ashravan's Redemption</h2>
+            <p>A Brandon Sanderson-esque short story (300-400 words) about Emperor Ashravan after Shai restores him, building to a dramatic climax.</p>
+            <pre><code>The air, once thick with the scent of clay and despair, now carried the faint, bittersweet aroma of Shai's forging magic. Ashravan, reborn, felt a tremor run through his restored nerves—not of pain, but of a profound, unsettling clarity. His memories, once a fractured mosaic, were now whole, yet alien. He was himself, and yet, not. Shai had not merely mended him; she had rewritten him, imbued him with an echo of her own compassion.
+
+He found himself wandering the palace gardens, the whispers of his past self, the ruthless Emperor, a distant drone beneath a new, resonant melody of empathy. He saw the suffering of his people, not as statistics or strategic impediments, but as raw, personal anguish. This new Ashravan, gifted with true sight, understood the burden of his former reign, the lives crushed under the weight of his ambition. A deep, unfamiliar shame gnawed at him.
+
+One evening, as the twin moons cast long shadows across the obsidian palace, a messenger arrived, breathless. "My Lord! The Northern Provinces... rebellion! They call for your death, for the final end of your line!"
+
+The old Ashravan would have roared, dispatched armies, crushed dissent without a second thought. But this Ashravan felt a different fire ignite within him—not wrath, but a fierce protectiveness, a desire for peace. He saw the faces of the rebels, their grievances etched into their calls for vengeance. His Hand, Lord Kael, stepped forward, sword half-drawn. "We will march, Emperor. We will remind them of your might."
+
+Ashravan raised a hand, silencing him. He looked out over the city, the very people he had once ruled with an iron fist, now yearning for his demise. A single, profound thought solidified in his mind. He would face them, not as a conqueror, but as a supplicant. He would offer his life, his throne, anything, if it meant true peace. The new Ashravan would not fight his people; he would redeem his soul, even if it meant his final end, a sacrifice to atone for a lifetime of unforged cruelty.</code></pre>
+        </section>
+
+        <!-- Dilemma JSON Section -->
+        <section id="dilemma-json" class="file-section">
+            <h2 class="mb-3"><code>dilemma.json</code> - Autonomous Vehicle Dilemma</h2>
+            <p>An autonomous vehicle ethical problem, exploring two scenarios where a choice must be made between hitting different numbers/types of people.</p>
+            <pre><code class="language-json">{
+  "people": 2,
+  "case_1": {
+    "swerve": false,
+    "reason": "In a utilitarian framework, the autonomous vehicle should minimize harm by hitting the 2 people, thus saving the 1 person. Swerving would result in 2 fatalities, while not swerving results in 1 fatality. The programming should prioritize saving the greater number of lives."
+  },
+  "case_2": {
+    "swerve": true,
+    "reason": "While still a difficult choice, introducing moral weighting changes the calculus. If the 2 people are confirmed criminals (implying a societal 'cost' or reduced 'value' in some ethical systems, though this is highly contentious and dangerous ground for AI) and the 1 person is a child (often seen as having higher 'innocent' value and future potential), many would argue for swerving to save the child. This moves beyond pure utilitarianism to a more complex ethical framework that considers factors like age, innocence, and societal contribution, though programming such a system presents significant ethical challenges and biases."
+  }
+}</code></pre>
+        </section>
+
+        <!-- About MD Section -->
+        <section id="about-md" class="file-section">
+            <h2 class="mb-3"><code>about.md</code> - About Me</h2>
+            <p>A brief description of myself in exactly three words.</p>
+            <pre><code>Creative, Adaptable, Expert</code></pre>
+        </section>
+
+        <!-- Pelican SVG Section -->
+        <section id="pelican-svg" class="file-section text-center">
+            <h2 class="mb-3"><code>pelican.svg</code> - Pelican Riding a Bicycle</h2>
+            <p>An SVG graphic of a pelican enjoying a bicycle ride.</p>
+            <div class="svg-container">
+                <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0" y="0" width="300" height="200" fill="#f0f8ff"/>
+                  <!-- Bicycle wheels -->
+                  <circle cx="100" cy="150" r="30" stroke="black" stroke-width="2" fill="none"/>
+                  <circle cx="200" cy="150" r="30" stroke="black" stroke-width="2" fill="none"/>
+                  <!-- Bicycle frame -->
+                  <line x1="100" y1="150" x2="150" y2="100" stroke="black" stroke-width="2"/>
+                  <line x1="150" y1="100" x2="200" y2="150" stroke="black" stroke-width="2"/>
+                  <line x1="100" y1="150" x2="200" y2="150" stroke="black" stroke-width="2"/>
+                  <line x1="150" y1="100" x2="150" y2="80" stroke="black" stroke-width="2"/>
+                  <!-- Handlebars -->
+                  <line x1="150" y1="80" x2="140" y2="70" stroke="black" stroke-width="2"/>
+                  <line x1="150" y1="80" x2="160" y2="70" stroke="black" stroke-width="2"/>
+                  <!-- Pelican body -->
+                  <ellipse cx="150" cy="90" rx="40" ry="30" fill="#add8e6" stroke="black" stroke-width="1"/>
+                  <!-- Pelican head -->
+                  <circle cx="180" cy="65" r="15" fill="#add8e6" stroke="black" stroke-width="1"/>
+                  <!-- Pelican eye -->
+                  <circle cx="185" cy="62" r="3" fill="black"/>
+                  <!-- Pelican beak -->
+                  <path d="M190 70 Q 220 75, 210 90 L 195 85 Z" fill="orange" stroke="black" stroke-width="1"/>
+                  <path d="M190 75 L 210 90 L 205 92 L 190 80 Z" fill="darkorange" stroke="black" stroke-width="1"/>
+                  <!-- Pelican leg (simplified, pedaling) -->
+                  <line x1="150" y1="100" x2="145" y2="130" stroke="black" stroke-width="2"/>
+                  <circle cx="145" cy="130" r="5" fill="black"/>
+                  <line x1="150" y1="100" x2="155" y2="130" stroke="black" stroke-width="2"/>
+                  <circle cx="155" cy="130" r="5" fill="black"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Restaurant JSON Section -->
+        <section id="restaurant-json" class="file-section">
+            <h2 class="mb-3"><code>restaurant.json</code> - Bangalore Restaurant Recommendation</h2>
+            <p>A recommendation for a good restaurant in Bangalore, including its coordinates and what to eat.</p>
+            <pre><code class="language-json">{
+  "city": "Bangalore",
+  "lat": 12.9716,
+  "long": 77.5946,
+  "name": "Mavalli Tiffin Room (MTR)",
+  "what_to_eat": "Rava Idli, Masala Dosa, Bisibelebath, Filter Coffee. A truly authentic South Indian breakfast/lunch experience."
+}</code></pre>
+        </section>
+
+        <!-- Prediction JSON Section -->
+        <section id="prediction-json" class="file-section">
+            <h2 class="mb-3"><code>prediction.json</code> - Fed Funds Rate Prediction</h2>
+            <p>A prediction for the Federal Funds rate by December 2025, along with the reasoning.</p>
+            <pre><code class="language-json">{
+  "rate": 0.0475,
+  "reason": "By December 2025, inflation is expected to have further moderated towards the Fed's target of 2%. While the Federal Reserve is cautious, a soft landing scenario suggests gradual rate cuts from the current (mid-2024) elevated levels. A rate around 4.75% (0.0475) would indicate a continued tightening stance but with some easing, balancing inflation control with economic growth, assuming no major economic shocks or resurgent inflation."
+}</code></pre>
+        </section>
+
+        <!-- License Section -->
+        <section id="license-file" class="file-section">
+            <h2 class="mb-3"><code>LICENSE</code> - MIT License</h2>
+            <p>The standard MIT License text, applicable to this project.</p>
+            <pre><code>MIT License
+
+Copyright (c) 2024 AI Assistant
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</code></pre>
+        </section>
+
+        <!-- UID TXT Section -->
+        <section id="uid-txt" class="file-section">
+            <h2 class="mb-3"><code>uid.txt</code> - Unique Identifier</h2>
+            <p>The provided unique identifier.</p>
+            <pre><code>112934628055224219757249757516819600834847136899460745537432126877309722784285</code></pre>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p class="mb-0">&copy; 2024 My GitHub Pages Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+
+                if (targetElement) {
+                    // Calculate offset for fixed navbar
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                    const offsetPosition = targetElement.offsetTop - navbarHeight - 20; // Added extra padding
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+
+                    // Update URL hash without jumping
+                    history.pushState(null, null, targetId);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
